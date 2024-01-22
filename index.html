@@ -4,8 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+   <header class="bg-slate-700 text-white">
+    <nav class="bg-blue-950 text-white py-6">
+        <div class="container mx-auto  lg:px-28 flex justify-between">
+            <div class="flex items-center gap-12">
+                <img src="assets/logo-3.png" alt="">
+                <div class="space-x-4 hidden lg:flex">
+                    <a class="font-bold hover:text-red-600" href="#">Home</a>
+                    <a class="font-bold hover:text-red-600" href="#">About</a>
+                    <a class="font-bold hover:text-red-600" href="#">Services</a>
+                    <a class="font-bold hover:text-red-600" href="#">Blog</a>
+                    <a class="font-bold hover:text-red-600" href="#">Contact</a>
+                </div>
+            </div>
+        <div class="flex items-center lg:gap-4 gap-12">
+            <h2 class="text-xl hover:bg-red-300 py-3 px-5 rounded-xl">Login</h2>
+            <button class=" text-xl btn btn-error text-white">Get Started</button>
+        </div>
+        </div>
+    </nav>
+    <div class="container mx-auto text-center py-12 lg:py-36 relative">
+         <h1 class=" text-3xl lg:text-7xl font-bold ">Creative way to  <br>
+            Showcase your <span class="text-orange-700">App</span></h1>
+            <p class="text-slate-300 my-7 lg:w-2/4 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, magnam, natus sed iure vitae quo, vero cum reiciendis nihil quasi quod impedit velit sint </p>
+           <div class="space-x-5 mb-24 ">
+            
+            <button class="btn btn-error text-white">Get a Quoue</button>
+            <button class="btn">Play a Video</button>
+           </div>
+           <div class="absolute lg:w-4/6 lg:left-48 lg:-bottom-56">
+            <img  class="w-full" src="assets/hero-thumb-4.png" alt="">
+           </div>
+    </div>
+   </header> 
+   <main>
+     <section class="container mx-auto mb-24 mt-[200px] text-center">
+        <h2 class="text-4xl">What you can do</h2>
+        <p class="w-4/6 mx-auto mt-6 mb-12">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi facere quod omnis ipsum in quam magnam maiores voluptatum numquam non, culpa placeat vitae. Nihil fugit deleniti impedit rerum autem soluta?</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+            <div class="shadow-xl py-8 px-8 rounded-xl">
+                <div class="flex justify-center ">
+                    <img class="bg-purple-500 rounded-full h-12" src="assets/play-button.png" alt="">
+                </div>
+                <h2 class="text-xl font-medium">Easy to use</h2>
+                <p class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, excepturi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, modi.</p>
+                <button class="btn">Read More</button>
+            </div>
+            <div class="shadow-xl py-8 px-8 rounded-xl">
+                <div class="flex justify-center ">
+                    <img class="bg-green-500 rounded-full h-12" src="assets/play-button.png" alt="">
+                </div>
+                <h2 class="text-xl font-medium">Easy to use</h2>
+                <p class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, excepturi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, modi.</p>
+                <button class="btn">Read More</button>
+            </div>
+            <div class="shadow-xl py-8 px-8 rounded-xl">
+                <div class="flex justify-center ">
+                    <img class="bg-red-500 rounded-full h-12" src="assets/play-button.png" alt="">
+                </div>
+                <h2 class="text-xl font-medium">Easy to use</h2>
+                <p class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, excepturi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, modi.</p>
+                <button class="btn">Read More</button>
+            </div>
+        </div>
+     </section>
+   </main>
+   <footer>
+
+   </footer>
 </body>
 </html>
